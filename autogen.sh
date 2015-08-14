@@ -1,5 +1,5 @@
 #!/bin/sh
-
+ACLOCAL_AMFLAGS="-I m4/"
 
 test -f ChangeLog || touch ChangeLog
 
